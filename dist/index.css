@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(35, 35, 35);
+}
+
+.node {
+    border: 2px solid rgb(38, 31, 96);
+    border-radius: 5px;
+    padding: 5px;
+    background: linear-gradient(to bottom right, rgb(6, 0, 49) 0%, rgb(10, 0, 85) 100%);
+    height: 100px;
+    width: 100px;
+}
+
+.var-declaration {
+    color: rgb(151, 151, 255);
+}
+.const {
+    background-color: green;
+}
+.var-name {
+    color: rgb(144, 185, 255);
+}
+.var-initializer {
+    color: blue;
+}
+.number {
+    color: rgb(12, 186, 0);
+}
